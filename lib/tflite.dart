@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:typed_data';
 import 'dart:ui' show Color;
 import 'package:flutter/services.dart';
+import 'package:flutter/material.dart';
 
 class Tflite {
   static const MethodChannel _channel = const MethodChannel('tflite');
